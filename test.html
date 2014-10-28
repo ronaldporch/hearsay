@@ -3,9 +3,14 @@
   <title>Test</title>
 </head>
 <body>
-  <script src="js/encryptor.js"></script>
+  <script src="js/encoder.js"></script>
   <script src="node_modules/chai/chai.js"></script>
   <script src="node_modules/mocha/mocha.js"></script>
   <script src="test/encryptor_test.js"></script>
+  <script> mocha.setup("bdd"); </script>
+  <script> mocha.run(); </script>
+  <script rel="stylesheet" type="text/css" href"node_modules/mocha/mocha.css"></script>
+  <script src="build/bundle.js"></script>
+  <div class="mocha"></div>
 </body>
 </html>
